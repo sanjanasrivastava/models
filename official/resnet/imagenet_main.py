@@ -39,7 +39,7 @@ NUM_IMAGES = {	# TODO change
     'validation': 50000,
 }
 
-_NUM_TRAIN_FILES = 1024		# TODO change for number of shards 
+_NUM_TRAIN_FILES = 128		# TODO change for number of shards 
 _SHUFFLE_BUFFER = 10000
 
 DATASET_NAME = 'ImageNet'

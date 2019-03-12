@@ -101,5 +101,5 @@ tutorials/embedding/questions-words.txt
 samples/outreach/blogs/segmentation_blogpost/carvana-image-masking-challenge/
 
 # Slurm stuff
-*/tools/log/slurm*
+*log/slurm*
 
