@@ -1,0 +1,23 @@
+2019-03-06 18:08:14.731056: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1405] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:85:00.0
+totalMemory: 11.17GiB freeMemory: 11.10GiB
+2019-03-06 18:08:14.731269: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2019-03-06 18:08:17.357476: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-03-06 18:08:17.357531: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2019-03-06 18:08:17.357542: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2019-03-06 18:08:17.357923: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10758 MB memory) -> physical GPU (device: 0, name: Tesla K80, pci bus id: 0000:85:00.0, compute capability: 3.7)
+2019-03-06 18:08:27.302977: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1484] Adding visible gpu devices: 0
+2019-03-06 18:08:27.303101: I tensorflow/core/common_runtime/gpu/gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-03-06 18:08:27.303117: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971]      0 
+2019-03-06 18:08:27.303127: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] 0:   N 
+2019-03-06 18:08:27.303349: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10758 MB memory) -> physical GPU (device: 0, name: Tesla K80, pci bus id: 0000:85:00.0, compute capability: 3.7)
+Shuffling training records
+Globbing training files
+Getting training file synset labels
+Globbing validation files
+Getting validation file synset labels
+Creating unique IDs for all synsets
+Creating training data
+Creating validation data
+Returning records

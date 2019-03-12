@@ -34,12 +34,12 @@ DEFAULT_IMAGE_SIZE = 224
 NUM_CHANNELS = 3
 NUM_CLASSES = 1001
 
-NUM_IMAGES = {
+NUM_IMAGES = {	# TODO change
     'train': 1281167,
     'validation': 50000,
 }
 
-_NUM_TRAIN_FILES = 1024
+_NUM_TRAIN_FILES = 1024		# TODO change for number of shards 
 _SHUFFLE_BUFFER = 10000
 
 DATASET_NAME = 'ImageNet'
@@ -295,6 +295,7 @@ def imagenet_model_fn(features, labels, mode, params):
 
   # Warmup and higher lr may not be valid for fine tuning with small batches
   # and smaller numbers of training images.
+  # TODO may need to change for the small training dataset sizes
   if params['fine_tune']:
     warmup = False
     base_lr = .1
